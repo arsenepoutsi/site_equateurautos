@@ -142,7 +142,7 @@
     var data = {};
     formValid.querySelectorAll("[name]").forEach(el=>data[el.getAttribute("name")] = el.value);
 
-    fetch('admin/api/forms/submit/contact?token=e3a07d1f99ee94e17a351bdd51061a', {
+    fetch('authentification/api/forms/submit/contact?token=e3a07d1f99ee94e17a351bdd51061a', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

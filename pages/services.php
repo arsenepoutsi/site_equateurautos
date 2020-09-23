@@ -17,8 +17,16 @@
 <!--/Breadcrumb-->
 
 <!--listing-->
-<section class="sptb">
+<section class="sptb" style="margin-top: -50px;">
 	<div class="container">
+		<div class="row">
+			<div class="alert alert-warning" role="alert" style="background-color: #fff3cd; color: #856404;">
+				<h4 class="alert-heading">
+					<i class="fa fa-info-circle"></i>&nbsp;&nbsp;NOTE D'INFORMATION
+				</h4>
+				<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12">
 				<div class="row">

@@ -15,6 +15,12 @@
 <!--Breadcrumbs Section-->
 
 <div class="container">
+	<div class="alert alert-success" role="alert" style="margin-top: 15px; background-color: #d4edda; color: #172e00;">
+		<i class="fa fa-info-circle"></i>&nbsp;&nbsp; 
+		<span>
+			This is a success alert with an example link. Give it a click if you like.
+		</span> 
+	</div>
 	<div class="row" style="margin-top: 20px;">
 		<?php 
 	        $res = $cockpit->module('collections')->find("vehicules", [

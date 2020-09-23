@@ -19,6 +19,12 @@
 <!--listing-->
 <section class="sptb">
 	<div class="container">
+		<div class="alert alert-success" role="alert" style="margin-top: -50px; background-color: #d4edda; color: #172e00;">
+			<i class="fa fa-info-circle"></i>&nbsp;&nbsp; 
+			<span>
+				This is a success alert with an example link. Give it a click if you like.
+			</span> 
+		</div>
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12">
 				<div class="row">

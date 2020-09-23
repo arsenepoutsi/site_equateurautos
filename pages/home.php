@@ -10,7 +10,9 @@
 				<div class="row">
 					<div class="col-xl-12 col-lg-12 col-md-12 d-block mx-auto" style="text-align: center;">
 						<div class="item-search-tabs">
-							<button class="btn btn-danger"><b>RESERVEZ ICI</b></button>
+							<button type="button" class="btn btn-danger btn-lg" style="background-color: #f8d7da; color: #721c24;"> 
+								<i class="fa fa-calendar"></i>&nbsp;&nbsp; R&Eacute;SERVATION
+							</button>
 						</div>
 					</div>
 				</div>

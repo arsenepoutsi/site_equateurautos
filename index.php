@@ -1,6 +1,6 @@
 <?php 
   error_log(E_ALL);
-  require_once("./admin/bootstrap.php"); 
+  require_once("./authentification/bootstrap.php"); 
 ?>
 
 <!doctype html>

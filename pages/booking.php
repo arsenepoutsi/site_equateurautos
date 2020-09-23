@@ -17,8 +17,16 @@
 <!--/Breadcrumb-->
 
 <!--Contact-->
-<section class="sptb">
+<section class="sptb" style="margin-top: -50px;">
 	<div class="container customerpage">
+		<div class="row">
+			<div class="alert alert-warning" role="alert" style="background-color: #fff3cd; color: #856404;">
+				<h4 class="alert-heading">
+					<i class="fa fa-info-circle"></i>&nbsp;&nbsp;DEMANDE DE RENDEZ-VOUS
+				</h4>
+				<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+			</div>
+		</div>
 		<div class="row">
 		    <div class="single-page" >
 				<div class="col-lg-8 col-xl-8 col-md-8 d-block mx-auto">
@@ -54,7 +62,7 @@
 							<div class="row">
 								<div class="col-md-4 name"></div>
 								<div class="col-md-4 name">
-									<button type="submit" title="Prendre rendez-vous" class="btn btn-primary">Prendre rendez-vous</button>
+									<button type="submit" title="Prendre rendez-vous" class="btn btn-primary"><i class="fa fa-save"></i>&nbsp;&nbsp;Prendre rendez-vous</button>
 								</div>
 								<div class="col-md-4 name"></div>
 							</div>
