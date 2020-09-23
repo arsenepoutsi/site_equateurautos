@@ -37,4 +37,7 @@
 	<!-- Color-Skins -->
 	<link id="theme" rel="stylesheet" type="text/css" media="all" href="assets/color-skins/color13.css" />
 
+	<link rel="stylesheet" href="assets/css/noty.css">
+	<link rel="stylesheet" href="assets/css/relax.css">
+
 </head>

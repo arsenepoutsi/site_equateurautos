@@ -1,3 +1,8 @@
+<?php 
+  error_log(E_ALL);
+  require_once("./admin/bootstrap.php"); 
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 	
@@ -29,6 +34,21 @@
 	                case 'contact':
 	                    include 'pages/contact.php';
 	                    break;
+	                case 'news':
+	                    include 'pages/news.php';
+	                    break;
+	                case 'about':
+	                    include 'pages/about.php';
+	                    break;
+	                case 'cars':
+	                    include 'pages/cars.php';
+	                    break;
+	                case 'services':
+	                    include 'pages/services.php';
+	                    break;
+	                case 'booking':
+	                    include 'pages/booking.php';
+	                    break;
 
 	                default:
 	                    include 'pages/home.php';
@@ -41,7 +61,7 @@
 		<!--Footer Section-->
 
 		<!-- Back to top -->
-		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
+		<a href="#top" id="back-to-top" style="margin-bottom: -20px;"><i class="fa fa-rocket"></i></a>
 
 		<!-- JQuery js-->
 		<?php include("include/script.php"); ?>

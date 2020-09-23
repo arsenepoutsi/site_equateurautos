@@ -55,3 +55,6 @@
 
 <!-- Owl Carousel Js-->
 <script src="assets/js/owl-carousel.js"></script>
+
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/noty.min.js"></script>
