@@ -62,7 +62,7 @@
 
 <!-- Popup modal -->
 <div class="modal fade" id="pubModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="
+  <div class="modal-dialog" role="document" style="
     padding: 0;
     margin: 0 auto;
     max-width: 75%;
@@ -114,11 +114,9 @@ Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac fa
   </div>
 </div>
 <script>
-	$( window ).load(function() {
-		var q = sessionStorage.getItem("info");
-		if(q == null ){
-			sessionStorage.setItem("info",1);
-			$('#pubModalCenter').modal('show');
-		}
-	});
+	var q = sessionStorage.getItem("info");
+	if(q == null ){
+		sessionStorage.setItem("info",1);
+		$('#pubModalCenter').modal('show');
+	}
 </script>
