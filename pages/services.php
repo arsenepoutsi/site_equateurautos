@@ -24,7 +24,13 @@
 				<h4 class="alert-heading">
 					<i class="fa fa-info-circle"></i>&nbsp;&nbsp;NOTE D'INFORMATION
 				</h4>
-				<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+				<?php 
+					$notes = $cockpit->module('singletons')->getData("information");
+				?>
+				<p><?= $notes["note"]; ?></p>
+				<span>
+					<small><?= $notes["responsable"]; ?></small>
+				</span>
 			</div>
 		</div>
 		<div class="row">

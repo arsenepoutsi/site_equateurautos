@@ -18,7 +18,7 @@
 		<!--Topbar-->
 		<?php include("include/menu.php"); ?>
 		<!-- Topbar -->
-
+		
 		<?php
 	          if (isset($_GET['page']))
 	          {
