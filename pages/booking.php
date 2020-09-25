@@ -121,8 +121,8 @@
   formValid.addEventListener('submit', function(){
     var data = {};
     formValid.querySelectorAll("[name]").forEach(el=>data[el.getAttribute("name")] = el.value);
-
-    fetch('authentification/api/forms/submit/devis?token=e3a07d1f99ee94e17a351bdd51061a', {
+		console.log(data);
+    fetch('/authentification/api/forms/submit/reservez?token=16d71f1321d740676e4574ce858aea', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

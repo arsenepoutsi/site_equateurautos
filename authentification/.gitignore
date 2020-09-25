@@ -26,6 +26,7 @@ addons/
 !.gitignore
 !.gitkeep
 !/storage/*/index.html
+!/config/forms
 !/storage/*/.htaccess
 defines.php
 # Sublime Text
